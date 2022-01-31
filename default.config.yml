@@ -7,11 +7,11 @@ configure_osx: true
 
 # Set to 'true' to configure the Dock via dockutil.
 configure_dock: false
-dockitems_remove: []
-# - Launchpad
-# - TV
-# - Podcasts
-# - 'App Store'
+dockitems_remove:
+- Launchpad
+- TV
+- Podcasts
+- 'App Store'
 dockitems_persist: []
 # - name: "Sublime Text"
 #   path: "/Applications/Sublime Text.app/"
@@ -69,6 +69,7 @@ homebrew_taps:
   - homebrew/core
   - homebrew/cask
   - homebrew/cask-fonts
+  - homebrew/cask-versions
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - alfred
@@ -91,11 +92,12 @@ homebrew_cask_apps:
   - visual-studio-code
   - vlc
   - zoom
-  - microsoft-outlook
   - microsoft-office
   - brave-browser
   - slack
   - postman
+  - iterm2
+  
 
 
 
