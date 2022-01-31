@@ -43,6 +43,7 @@ homebrew_installed_packages:
   - gifsicle
   - git
   - github/gh/gh
+  - git-extras
   - go
   - gpg
   - httpie
@@ -62,6 +63,7 @@ homebrew_installed_packages:
   - wget
   - wrk
   - zsh-history-substring-search
+  - z
 
 homebrew_taps:
   - homebrew/core
@@ -75,16 +77,29 @@ homebrew_cask_apps:
   # - dropbox
   - firefox
   - google-chrome
+  - google-chrome-canary
+  - google-drive
   - handbrake
-  - licecap
+  # - licecap
   - sequel-ace
   - slack
   # - sublime-text
   # - transmit
   - vagrant
   - cyberduck
-  - iterm2
   - gimp
+  - visual-studio-code
+  - vlc
+  - zoom
+  - microsoft-outlook
+  - microsoft-office
+  - brave-browser
+  - slack
+  - postman
+
+
+
+
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
