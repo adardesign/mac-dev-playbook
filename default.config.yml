@@ -62,7 +62,7 @@ homebrew_installed_packages:
   - pv
   - wget
   - wrk
-  - zsh-history-substring-search
+ #- zsh-history-substring-search
   - z
 
 homebrew_taps:
