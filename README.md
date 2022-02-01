@@ -2,6 +2,10 @@
 
 # Eliezer's Mac Development Ansible Playbook
 
+
+use oh my zsh
+manually install fira code font (issues with brew to be used for shared users) 
+
 [![CI][badge-gh-actions]][link-gh-actions]
 
 This playbook installs and configures most of the software I use on my Mac for web and software development. Some things in macOS are slightly difficult to automate, so I still have a few manual installation steps, but at least it's all documented here.
